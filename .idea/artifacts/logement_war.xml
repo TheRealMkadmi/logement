@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="logement:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>logement</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="LogementService-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="logement:war exploded" />
+    </root>
+  </artifact>
+</component>
